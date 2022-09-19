@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery </title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}">
+
+
+
+
+</head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="home.html"> <b> BOILED PLASTIC </b> </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Gallery</a>
+      </li>
+	  <!--
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Gallery
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">2D</a>
+          <a class="dropdown-item" href="#">3D</a>
+        </div> -->
+      </li> 
+	  <a class="nav-link" href="animation.html">Animation</a>
+	  <a class="nav-link" href="3D.html">3D</a>
+	  <a class="nav-link" href="about.html">About</a>
+	  <a class="nav-link" href="contact.html">Contact us</a>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Shop(?)</a>
+      </li>
+	  <a class="nav-link disabled" href="#">EST.2055</a>
+    </ul> 
+						
+	<!--
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+	-->
+  </div>
+</nav>
+
+
+<style>
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+</style>
+
+<style>
+body {
+  background-image: url('https://cdn.discordapp.com/attachments/536940140812173334/947194530967461978/Capture.PNG');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}   
+</style>
+
+<center>
+<b>
+<p> &nbsp; </p>
+<p> For business inquiries and general messages:</p>
+<p> Email -  scrapsandshrimps@gmail.com</p>
+<a href="https://www.instagram.com/lil_hoot.official/"> Instagram - @lil_hoot.official</a>
+</b>
+<!--<img src="{{url_for('static', filename='images/0024.png')}}" style="width:20%"> -->
+</center>

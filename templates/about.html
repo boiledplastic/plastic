@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>About Us </title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
+  <link rel="stylesheet" type="text/css" href="static/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet"> 
+
+
+
+</head>
+
+<style>
+body {
+	font-family: 'Russo One', sans-serif;
+}
+
+
+</style>
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="home.html"> <b> BOILED PLASTIC </b> </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Gallery</a>
+      </li>
+	  <!--
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Gallery
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">2D</a>
+          <a class="dropdown-item" href="#">3D</a>
+        </div> -->
+      </li> 
+	  <a class="nav-link" href="animation.html">Animation</a>
+	  <a class="nav-link" href="3D.html">3D</a>
+	  <a class="nav-link" href="about.html">About</a>
+	  <a class="nav-link" href="contact.html">Contact us</a>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Shop(?)</a>
+      </li>
+	  <a class="nav-link disabled" href="#">EST.2055</a>
+    </ul> 
+				
+						
+	<!--
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+	-->
+  </div>
+</nav>
+<style>
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+</style>
+<center>
+<!-- <h1 style="font-family: 'Russo One', sans-serif"> BOILED PLASTIC </b> </h1> -->
+<h1> <b> BOILED PLASTIC  </h1>
+<img id="myImg" src="static/images/pfp.png" onclick="openModal();currentSlide(1)" size='30%' 
+     height="500">
+<p>T.B.M</p>
+</b>
+</center>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
